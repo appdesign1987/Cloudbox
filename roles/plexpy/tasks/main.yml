@@ -44,7 +44,7 @@
       PUID: "{{ uid }}"
       PGID: "{{ gid }}"
       VIRTUAL_HOST: "plexpy.{{ user.domain }}"
-      VIRTUAL_PORT: 8181
+      VIRTUAL_PORT: "8181"
       LETSENCRYPT_HOST: "plexpy.{{ user.domain }}"
       LETSENCRYPT_EMAIL: "{{ user.email }}"
       TZ: "{{ tz }}"
